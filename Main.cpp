@@ -45,6 +45,9 @@ int main()
 	{
 		processInput(window);
 
+		glClearColor(0.0f, 0.3f, 0.5f, 1.0f);
+		glClear(GL_COLOR_BUFFER_BIT);
+
 		glfwSwapBuffers(window);
 		glfwPollEvents();
 	}
